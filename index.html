@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+    <title>BookStore</title>
+</head>
+<body>
+    <!-- menu -->
+     <section class="menu">
+        <div class="icon">
+            <p>BookNest</p>
+        </div>
+        <div class="text">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">BestSeller</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="back">
+            <a href=""><img src="./images/mdi_shopping-cart-outline.png" alt=""></a>
+            <a href=""><img src="./images/mdi_heart-outline.png" alt=""></a>
+            <a href=""><img src="./images/ri_user-add-line.png" alt=""></a>
+        </div>
+     </section>
+
+    <!-- swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+             <!-- {% for swiper in swipers %} -->
+                <div class="swiper-slide">
+                    <div></div>
+                    <img src="images/wp12868114-desktop-library-wallpapers.jpg" alt="">
+                        <p>Discover Your Next Adventure</p>
+                        <p>Your Story Starts Here</p>
+                </div>  
+                
+                
+                <div class="swiper-slide">
+                    <div></div>
+                    <img src="images/wp11182509-university-student-wallpapers.jpg" alt="">
+                        <p>Discover Your Next Adventure</p>
+                        <p>Your Story Starts Here</p>
+                </div>  
+                
+                <div class="swiper-slide">
+                    <div></div>
+                    <img src="images/wp12420121-library-4k-wallpapers.jpg" alt="">
+                        <p>Discover Your Next Adventure</p>
+                        <p>Your Story Starts Here</p>
+                </div> 
+
+                <div class="swiper-slide">
+                    <div></div>
+                    <img src="images/wp13669861-school-library-wallpapers.jpg" alt="">
+                        <p>Discover Your Next Adventure</p>
+                        <p>Your Story Starts Here</p>
+                </div> 
+             <!-- {% endfor %} -->
+        </div>
+      </div>
+
+<!-- product -->
+<section class="product">
+    <div class="top">
+        <p>Our Products</p>
+    </div>
+    <div class="bottom">
+        <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+    
+    
+              <div class="swiper-slide">
+                  <a href="">
+                    <img src="images/TheCompoundEffect-by-DarrenHardy.jpg" alt="">
+                    <div>                              
+                      <p>Compound Effect</p>
+                      <p>Author: Darren Hardy</p>
+                      <p>Price : $10.99</p>
+                    </div>
+                    <button>Buy Now</button>
+                  </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                  <img src="images/61UZS3QA1UL._AC_UF1000,1000_QL80_.jpg" alt="">
+                  <div>                              
+                    <p>The 48 Laws of Power</p>
+                    <p>Author: Robert Greene </p>
+                    <p>Price : $12.99</p>
+                  </div>
+                  <button>Buy Now</button>
+                </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="">
+              <img src="images/1.jfif" alt="">
+              <div>                              
+                <p>The 5 AM Club</p>
+                <p>Author: Robin Sharma</p>
+                <p>Price : $9.99</p>
+              </div>
+              <button>Buy Now</button>
+            </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="">
+          <img src="images/2.jfif" alt="">
+          <div>                              
+            <p>Atomic Habits</p>
+            <p>Author: James Clear</p>
+            <p>Price : $15.99</p>
+          </div>
+          <button>Buy Now</button>
+        </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="">
+      <img src="images/61pDNU9qEGL._AC_UF1000,1000_QL80_.jpg" alt="">
+      <div>                              
+        <p>Can't Hurt Me</p>
+        <p>Author: David Goggins</p>
+        <p>Price : $18.99</p>
+      </div>
+      <button>Buy Now</button>
+    </a>
+</div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev" width="5px" height="5px"></div>
+        </div>
+    </div>
+</section>
+
+<!-- category -->
+ <section class="category">
+    <div class="top">
+        <p>Book Category</p>
+    </div>
+    <div class="bottom">
+        <a href="#">
+            <div>
+            <p>History</p>
+            <p>Dive into the past with our comptehensive history section . </p>
+            </div>
+            <div>
+                <img src="./images/5.jpg" alt="">
+            </div>
+        </a>
+        <a href="#">
+          <div>
+          <p>Science</p>
+          <p>Explore the wonders of science with curated collection . </p>
+          </div>
+          <div>
+              <img src="./images/6.jpg" alt="">
+          </div>
+      </a>
+      <a href="#">
+        <div>
+        <p>Fiction</p>
+        <p>Get lost in imaginative stories with our fiction books. </p>
+        </div>
+        <div>
+            <img src="./images/7.jpg" alt="">
+        </div>
+    </a>
+    <a href="#">
+      <div>
+      <p>Fantacy</p>
+      <p>Embark on magical journeys with our fantacy collection . </p>
+      </div>
+      <div>
+          <img src="./images/8.jpg" alt="">
+      </div>
+  </a>
+    </div>
+ </section>
+
+
+ <!-- best_sellers -->
+<section class="seller">
+  <div class="top">
+      <p>BestSellers</p>
+  </div>
+  <div class="bottom">
+      <div class="swiper mySwiper1">
+          <div class="swiper-wrapper">
+  
+  
+            <div class="swiper-slide">
+                <a href="">
+                  <img src="images/9.jpg" alt="">
+                  <div>                              
+                    <p>The Magic</p>
+                    <p>Author: Rhonda Byrne</p>
+                    <p>Price : $16.99</p>
+                  </div>
+                  <button>Buy Now</button>
+                </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="">
+                <img src="images/10.jpg" alt="">
+                <div>                              
+                  <p>Eat That Frog</p>
+                  <p>Author: Brian Tracy </p>
+                  <p>Price : $19.99</p>
+                </div>
+                <button>Buy Now</button>
+              </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="">
+            <img src="images/11.jfif" alt="">
+            <div>                              
+              <p>The Little Prince</p>
+              <p>Author: Antoine de Saint-Exupéry</p>
+              <p>Price : $14.99</p>
+            </div>
+            <button>Buy Now</button>
+          </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="">
+        <img src="images/12.jpg" alt="">
+        <div>                              
+          <p>Think and Grow Rich</p>
+          <p>Author: Napoleon Hill</p>
+          <p>Price : $25.99</p>
+        </div>
+        <button>Buy Now</button>
+      </a>
+</div>
+<div class="swiper-slide">
+  <a href="">
+    <img src="images/13.jpg" alt="">
+    <div>                              
+      <p>Make Your Bed</p>
+      <p>Author: William H. McRaven</p>
+      <p>Price : $8.99</p>
+    </div>
+    <button>Buy Now</button>
+  </a>
+</div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev" width="5px" height="5px"></div>
+      </div>
+  </div>
+</section>
+
+
+<!-- blog -->
+ <section class="blog">
+  <div class="top">
+    <p>From Our Blog</p>
+  </div>
+  <div class="bottom">
+    <a href="#">
+      <div>
+        <p>The Slow Reader</p>
+        <p>Oct15, 2023 by John Doe</p>
+        <p>Discover the art of slow reading and how it enhances your experience</p>
+      </div>
+      <div>
+        <img src="./images/14.jpg" alt="">
+      </div>
+    </a>
+    <a href="#">
+      <div>
+        <p>Top Novels 2024</p>
+        <p>Oct10, 2024 by Jane Smith</p>
+        <p>Explore top 10 must-read novels of the year</p>
+      </div>
+      <div>
+        <img src="./images/15 (1).jpg" alt="">
+      </div>
+    </a>
+    <a href="#">
+      <div>
+        <p>Natuarl Light Reading</p>
+        <p>Oct5, 2024 by Emily Johnson</p>
+        <p>How reading by natural light can improve focus and relaxation</p>
+      </div>
+      <div>
+        <img src="./images/15 (2).jpg" alt="">
+      </div>
+    </a>
+  </div>
+ </section>
+
+
+ <!-- footer -->
+<footer class="footer">
+  <div>
+    <p>Follow our social media</p>
+  </div>
+  <div>
+    <div><p>BookNest</p></div>
+    <div>
+      <a href="">Pricing</a>
+      <a href="">About us</a>
+      <a href="">Features</a>
+      <a href="">Help Center</a>
+      <a href="">Contact us</a>
+      <a href="">FAQs</a>
+      <a href="">Careers</a>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div><p>&copy; design by mohammad hossein gholamhosseini</p></div>
+      <div>
+        <a href=""><img src="./images/logos_twitter.png" alt=""></a>
+        <a href=""><img src="./images/logos_facebook.png" alt=""></a>
+        <a href=""><img src="./images/logos_linkedin-icon.png" alt=""></a>
+        <a href=""><img src="./images/logos_youtube-icon.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      speed:1000,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+</script> 
+<script>
+    var swiper = new Swiper(".mySwiper1", {
+        slidesPerView: 4,
+        speed: 300,
+        loop: true,
+        freeMode: true,
+        watchSlidesProgress: true,
+        ClickAble: true,
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+</script>
+</body>
+</html>
